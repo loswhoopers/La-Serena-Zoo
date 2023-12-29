@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Serena Zoo</title>
+
+    <!-- Inicio css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- Fin css-->
+
+    <!-- Inicio Tipografías-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- Fin Tipografías-->
+</head>
+
+<body>
+    <!--Inicio header-->
+    <header>
+        <div class="container">
+            <div class="col">
+                <div class="row">
+                    <nav class="navbar navbar-expand-md ">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="menu/historia.html">Historia</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Nuestros Animales
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="menu/mamiferos.html">Mamiferos</a></li>
+                                            <li><a class="dropdown-item" href="menu/aves.html">Aves</a></li>
+                                            <li><a class="dropdown-item" href="menu/reptiles.html">Reptiles</a></li>
+                                            <li><a class="dropdown-item" href="menu/peces.html">Peces</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="menu/boletos.html">Boletos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="menu/contacto.html">Contacto</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Fin header-->
+
+    <!--Inicio carrusel-->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active d-item">
+                <img src="assets/images/wallpaper.png" class="d-block w-100 d-img" alt="slider-01">
+                <div class="carousel-caption top-0 mt-5">
+                    <h1 class="display-1 text-white mt-5">Nuestra Misión</h1>
+                    <p class="mt-5 fs-5 text-white">Nuestra misión proporcionar a las familias un refugio acogedor y
+                        vibrante, donde el descanso se entrelace con momentos de alegría y entretenimiento,
+                        surge un espacio diseñado para satisfacer las necesidades de todas las edades y gustos.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item d-item">
+                <img src="assets/images/ocean.jpg" class="d-block w-100 d-img" alt="slider-01">
+                <div class="carousel-caption top-0 mt-5">
+                    <h1 class="display-1 text-white mt-5">Nuestra visión</h1>
+                    <p class="mt-5 fs-5 text-white">Este oasis de aprendizaje y diversión se erige con el propósito
+                        fundamental de convertirse en un faro que ilumine
+                        el camino hacia una conexión más profunda con la naturaleza, en particular, con la flora y la
+                        fauna que nos rodea.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item d-item">
+                <img src="assets/images/africa-02.jpg" class="d-block w-100 d-img" alt="slider-01">
+                <div class="carousel-caption top-0 mt-5">
+                    <h1 class="display-1 text-white mt-5">Nosotros</h1>
+                    <p class="mt-5 fs-5 text-white"> Somos un zoológico privado ubicado en la Región de Coquimbo y
+                        fundado en el año 2006.
+                        Ubicado en el sector de El Hinojal, en la ruta que lleva desde La Serena al Valle del Elqui.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Fin carrusel-->
+
+    <!--Inicio secciones-->
+    <div class="container mt-5">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class=" carta col p-4 d-flex flex-column position-static">
+                        <h2 class="mb-3">Nuestros Animales</h2>
+                        <p class="mb-auto">En ésta sección te invitamos a conocer a cada uno de nuestros
+                            animales en ésta simpática galería con sus respectivas descripciones. </p>
+                        <a href="menu/animales.html" class="icon-link gap-1 icon-link-hover stretched-link mb-3">Pincha éste enlace.</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="assets/images/jirafa-02.jpg" width="200" height="250" alt="foto-post">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="carta col p-4 d-flex flex-column position-static">
+                        <h2 class="mb-3">Historia</h2>
+                        <p class="mb-auto">El Camping situado a un costado del Zoologico y rodeado de vegetación lo que
+                            permite disfrutar de la Naturaleza en forma tranquila y segura.</p>
+                        <a href="menu/historia.html" class="icon-link gap-1 icon-link-hover stretched-link">Continuar leyendo</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="assets/images/suricata-02.jpg" width="200" height="250" alt="foto-post-02">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin secciones-->
+
+    <!--Inicio Actividades-->
+    <div class="container px-4 py-5" id="custom-cards">
+        <h2 class=" fs-2 pb-2 border-bottom">Actividades</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 py-5">
+            <div class="col resolucion">
+                <div class="carta-01 card-cover overflow-hidden rounded-4 shadow-lg">
+                    <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center text-white">Zona de Piscina</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col resolucion">
+                <div class="carta-02 card-cover overflow-hidden rounded-4 shadow-lg">
+                    <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center text-white">Zona de juegos</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col resolucion">
+                <div class="carta-03 card-cover overflow-hidden rounded-4 shadow-lg">
+                    <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center text-white">Zona Picnic</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Actividades-->
+
+    <!--Inicio Horarios-->
+    <section class="container">
+        <h2 class="fs-2 pb-2 border-bottom">Horarios</h2>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="h-100 rounded-3">
+                    <img src="assets/images/foto-07.jpg" alt="foto-horario" class="rounded-3 img-fluid">
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="h-100 p-5 bg-body-tertiary rounded-3">
+                    <dl>
+                        <dt class="mt-4">Todos los días.</dt>
+                        <dd>Abierto de 9:00 hrs a 19:00 hrs.</dd>
+                        <dt class="mt-4">Fines de semana y festivos</dt>
+                        <dd>Abierto de 9:00 hrs a 19:00 hrs.</dd>
+                        <dt class="mt-4">Sábado 16 de diciembre</dt>
+                        <dd>Abierto desde las 13:30 hrs a 20:00 hrs.</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin Horarios-->
+
+    <!--Inicio Tarifas-->
+    <section class="container marketing my-5">
+        <h2 class="fs-2 pb-2 border-bottom">Tarifas</h2>
+        <div class="row row-cols-2 row-cols-lg-4 py-5 mt-5 px-4 bg-body-tertiary border rounded-3">
+            <div class="col-lg-3">
+                <dl>
+                    <dt class="mt-4">ACCESO A CAMPING</dt>
+                    <dd>LUNES A DOMINGOS Y FESTIVOS</dd>
+                    <dd>$5.000.-</dd>
+                </dl>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-3">
+                <dl>
+                    <dt class="mt-4">ZOOLÓGICO</dt>
+                    <dd>LUNES A DOMINGOS Y FESTIVOS</dd>
+                    <dd>$3.000.-</dd>
+                </dl>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-3">
+                <dl>
+                    <dt class="mt-4">ZONA PICNIC</dt>
+                    <dd>LUNES A DOMINGOS Y FESTIVOS</dd>
+                    <dd>$3.000.-</dd>
+                </dl>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-3">
+                <dl>
+                    <dt class="mt-4">ZONA DE PISCINA</dt>
+                    <dd>LUNES A DOMINGOS Y FESTIVOS</dd>
+                    <dd>$6.000.-</dd>
+                </dl>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </section>
+    <!--Fin Tarifas-->
+
+    <!--Inicio Boletos-->
+    <section class="container">
+        <div class="mb-5 bg-body-tertiary text-center rounded-3">
+            <div class="container-fluid py-5 px-5 wallpaper">
+                <h3 class="display-5 fw-bold text-white mt-5">COMPRA TU ENTRADA</h3>
+                <p class="fs-5 text-white"> Asegura tus tickets y disfruta de una gran experiencia. </p>
+                <div class="text-center">
+                    <a class="btn btn-lg btn-primary rounded-3" href="menu/boletos.html" role="button">Comprar</a>
+                 </div> 
+            </div>
+        </div>
+    </section>
+    <!--Fin Boletos-->
+
+    <!--Inicio Footer-->
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu/historia.html">Historia</a></li>
+                        <li><a href="menu/animales.html">Nuestros Animales</a></li>
+                        <li><a href="menu/boletos.html">Boletos</a></li>
+                        <li><a href="menu/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li><a href="menu/mamiferos.html">Mamiferos</a></li>
+                        <li><a href="menu/aves.html">Aves</a></li>
+                        <li><a href="menu/reptiles.html">Reptiles</a></li>
+                        <li><a href="menu/peces.html">Peces</a></li>
+                    </ul>
+                </div>
+                <div class="col ">
+                    <ul class="d-flex gap-2">
+                      <li><a target="_blank" href="https://web.facebook.com/laserenazoocuartaregion/?_rdc=1&_rdr"><i
+                            class="bi bi-facebook"></i></a></li>
+                      <li><a target="_blank" href="https://www.instagram.com/laserenazoo/?hl=es"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <!--Fin Footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

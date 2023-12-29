@@ -1,0 +1,252 @@
+
+/*----- inicio codigos matias ------*/
+
+body {
+    font-family:'Roboto', sans-serif;;
+    background-color: var(--color-primario);
+    width: 100%;
+}
+
+header{
+    background-color: var(--color-primario);
+}
+
+.banner{
+    background-image: url(../images/banner-historia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    object-fit: cover;
+    filter:brightness(0.8);
+}
+
+
+h1 {
+    font-size: var(--size-h1);
+    font-weight: var(--weight-fuente);
+    color: var(--color-secundario);
+}
+
+h2 {
+    color: var(--color-secundario);
+    font-size: var(--tamano-h2);
+    font-weight: var(--weight-fuente);
+}
+
+h3 {
+    color: var(--color-secundario);
+    font-size: var(--tamano-h3);
+    font-weight: var(--weight-fuente);
+}
+
+p {
+    color: var(--color-terciario);
+    font-size: var(--tamano-p);
+}
+
+a{
+    text-decoration: none;
+}
+
+.dropdown-menu{
+    background-color: var(--color-primario);
+}
+
+.d-item{
+    height: 500px;
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.5);
+}
+
+.tamano{
+    background-size: 280vh;
+    height: 450px;
+}
+
+.resolucion{
+    height: 450px;
+}
+
+.anchura{
+    width: 380px;
+}
+
+.carta{
+    background-color: var(--color-white);
+}
+
+.carta-01{
+    background-image: url(../images/evento.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 4s;
+    height: 400px;
+}
+
+.carta-01:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.carta-02{
+    background-image: url(../images/foto-05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 4s;
+    height: 400px;
+}
+
+.carta-02:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.carta-03{
+    background-image: url(../images/picnic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 4s;
+    height: 400px;
+}
+
+.carta-03:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.efecto{
+    transition: 4s;
+}
+
+.efecto:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.wallpaper{
+    background-image: url(../images/wallpaper-aves.jpg);
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    height: 350px;
+}
+
+.aviso{
+    height:220px;
+}
+
+.btn{
+    background-color: var(--color-boton);
+    border-color: var(--color-boton);
+}
+
+.btn:hover{
+    background-color: var(--color-boton-hover);
+    border-color: var(--color-boton);
+}
+
+
+
+/*----- fin codigos matias ------*/
+
+/*----- inicio codigos rodrigo ------*/
+
+li{
+    list-style: none;
+    text-align: start;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+footer{
+    padding: 30px;
+    border-top: 1px solid black;
+}
+.nav-item a:hover{
+       color: var(--color-hover-menu);
+    
+    
+} 
+ul a:hover{
+    color: var(--color-hover-menu);
+}
+
+/*----- fin codigos rodrigo ------*/
+
+
+
+/*----- inicio codigos kirsten ------*/
+
+.card-img-top{
+    height: 350px;
+    width: 368px;
+    margin-left: 18px;
+}
+
+.card-title{
+    font-size: var(--tamano-h1);
+    color: var(--color-secundario);
+}
+
+.card-text{
+    font-size: var(--tamano-h4);
+    color: var(--color-texto);
+
+}
+
+.card{
+    --bs-card-border-color: none; 
+    background-color: var(--colorcard);
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+
+.animales{
+    margin-top: 20px;
+}
+
+.seccion-auxiliar{
+    margin-top: -20px;
+}
+
+.nuestrosanimales{
+    background-color: var(--color-primario);
+}
+
+.mamiferos, .aves, .reptiles, .peces{
+    background-color: var(--color-primario);
+    
+}
+
+
+/*----- fin codigos kirsten ------*/
+
+
+
+/*----- inicio codigos mario ------*/
+
+
+
+/*----- inicio codigos mario ------*/
+
+
+.map-area{
+  
+    width: 100%;
+    height: 465px;
+  background-color: beige;
+}
+
+.map-area iframe{
+    width: 100%;
+    height: 100%;
+}
+

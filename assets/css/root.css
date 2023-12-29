@@ -1,0 +1,34 @@
+/*--- variables zoo ---*/
+
+:root{
+    --color-primario:#DB9C2D;
+    --color-secundario:#5E240D;
+    --color-terciario:#000000;
+    --color-boton:#5E240D;
+    --color-boton-hover:#7B3312;
+    --color-white:#F2F2F2;
+    --color-texto:black; 
+    --color-banner-texto:#FFFFFF;
+    --tamano-h1:30px;
+    --tamano-h2:25px;
+    --tamano-h3:20px;
+    --tamano-p:14px;
+    --tamano-h4:14px;
+    --weight-fuente: 500;
+    --fuente-general:'Open Sans', sans-serif;
+    --colorcard: rgba(255, 255, 255, 0);
+    --color-tarjeta: transparent;
+    --color-hover-menu: #F1C40F ;
+}
+
+
+/*--- inicio variables descartadas ---*
+
+    --color-primario:#E9F5F5;
+    --color-secundario:#0195AB;
+
+    #5E240D Color Marrón modificado y sugerido por adobe 
+    fonts por su legibilidad en la lectura, sustituyendo así
+    el color-secundario:#8B4513.
+
+*--- fin variables descartadas ---*/
